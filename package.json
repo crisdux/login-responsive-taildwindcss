@@ -1,0 +1,16 @@
+{
+  "name": "7-login-basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/css/styles.css",
+    "watch-css": "npx tailwindcss -i ./src/styles.css -o ./public/css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
